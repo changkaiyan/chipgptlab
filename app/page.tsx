@@ -29,8 +29,15 @@ const iconMap = {
   Network,
 } as const;
 
+const basePath = process.env.GITHUB_ACTIONS === "true" ? "/chipgptlab" : "";
+
 function getIcon(name: string) {
   return iconMap[name as keyof typeof iconMap] ?? Cpu;
+}
+
+function withBasePath(src: string) {
+  if (!basePath || !src.startsWith("/")) return src;
+  return `${basePath}${src}`;
 }
 
 export default function Home() {
@@ -65,7 +72,7 @@ export default function Home() {
 
       <section className="relative min-h-[92vh] pt-16">
         <Image
-          src={content.hero.image}
+          src={withBasePath(content.hero.image)}
           alt={content.hero.imageAlt}
           fill
           priority
