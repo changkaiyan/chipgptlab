@@ -1,0 +1,191 @@
+[site]
+brand = "ChipGPT Lab"
+email = "changkaiyan@live.com"
+location = "北京"
+linkedin = "https://www.linkedin.com"
+
+[[navigation]]
+label = "平台"
+href = "#platform"
+
+[[navigation]]
+label = "能力"
+href = "#capabilities"
+
+[[navigation]]
+label = "场景"
+href = "#use-cases"
+
+[[navigation]]
+label = "合作"
+href = "#contact"
+
+[hero]
+eyebrow = "AI 原生的半导体智能"
+heading = "ChipGPT Lab"
+subheading = "面向专用处理器、RISC-V 定制芯片、AI 加速器、机器人控制芯片和工业控制芯片，建设AI 原生的半导体智能平台。"
+image = "/hero-chipgpt-lab.png"
+imageAlt = "ChipGPT Lab advanced semiconductor research visual"
+
+[hero.primaryCta]
+label = "联合实验室模式"
+href = "#contact"
+
+[hero.secondaryCta]
+label = "查看能力矩阵"
+href = "#capabilities"
+
+[[metrics]]
+value = "3x"
+label = "设计探索提速"
+
+[[metrics]]
+value = "24/7"
+label = "工程知识助理"
+
+[[metrics]]
+value = "PPA"
+label = "多目标优化闭环"
+
+[[metrics]]
+value = "NDA"
+label = "私有化数据边界"
+
+[capabilitiesIntro]
+eyebrow = "Platform"
+heading = "和团队协同优化真实研发流程"
+text = "ChipGPT Lab 不以“一键生成完整芯片”为短期目标，而是聚焦已有设计基础上的高频研发场景，帮助团队协同优化架构、RTL、编译器、驱动、仿真模型和验证流程。"
+
+[[capabilities]]
+title = "跨层一致性分析"
+icon = "BrainCircuit"
+text = "读取设计文档、寄存器定义、驱动接口、RTL 行为和仿真模型，自动发现接口不一致、行为偏差和跨层协同风险。"
+
+[[capabilities]]
+title = "架构与实现协同优化"
+icon = "Gauge"
+text = "围绕数据通路、缓存结构、指令映射、算子调度和 RTL 微结构，分析性能、面积与功耗瓶颈，并给出可执行修改建议。"
+
+[[capabilities]]
+title = "验证闭环与回归解释"
+icon = "LockKeyhole"
+text = "结合仿真日志、测试用例、验证报告和 PPA 结果，定位覆盖不足、错误根因和性能回归原因，减少验证返工。"
+
+[lab]
+heading = "把AI嵌入芯片研发协同链路"
+text = "一个处理器子系统要真正跑起来，架构规格、寄存器/指令定义、RTL 实现、驱动接口、编译映射、仿真模型、测试用例和性能评估必须保持一致。ChipGPT Lab 的核心能力，是让 AI Agent 作为协同优化助手进入这条链路。"
+
+[[workflow]]
+step = "01"
+title = "读取工程上下文"
+text = "接入设计文档、RTL、编译脚本、驱动接口、仿真日志、验证报告和 PPA 结果。"
+
+[[workflow]]
+step = "02"
+title = "识别跨层问题"
+text = "自动分析性能瓶颈、接口不一致、潜在缺陷、测试覆盖不足和回归异常。"
+
+[[workflow]]
+step = "03"
+title = "形成可执行建议"
+text = "为架构、前端、软件、验证和仿真团队提供一致判断，推动修改、验证和复盘闭环。"
+
+[useCasesIntro]
+eyebrow = "Use cases"
+heading = "面向需要软硬件协同的专用芯片"
+badge = "跨层一致性，可中试验证"
+
+[[useCases]]
+title = "专用处理器与 RISC-V 定制芯片"
+icon = "Cpu"
+text = "协同检查指令定义、寄存器接口、RTL 行为、编译映射和驱动接口是否一致。"
+
+[[useCases]]
+title = "AI 加速器"
+icon = "Factory"
+text = "分析数据通路、缓存结构、算子调度和微结构瓶颈，辅助性能/面积/功耗优化。"
+
+[[useCases]]
+title = "机器人控制芯片"
+icon = "Network"
+text = "把实时控制、驱动接口、仿真模型和测试用例纳入统一协同检查。"
+
+[[useCases]]
+title = "工业控制芯片"
+icon = "LineChart"
+text = "面向可靠性、接口稳定性和长期演进需求，减少跨层返工和验证遗漏。"
+
+[contact]
+eyebrow = "构建芯片架构设计和验证的 Co-Pilot"
+heading = "真实芯片验证协同优化价值。"
+text = "ChipGPT Lab 的投资价值在于抓住芯片研发中长期存在、但尚未被充分平台化的问题：芯片不是写代码慢，而是在架构、RTL、编译、驱动、仿真和验证之间反复协同优化出来的。"
+
+[contact.cta]
+label = "联系 ChipGPT Lab"
+href = "mailto:changkaiyan@live.com"
+
+[[contact.options]]
+title = "投资合作"
+text = "共同验证跨层一致性、协同优化和中试平台化的投资价值。"
+
+[[contact.options]]
+title = "业务咨询"
+text = "面向芯片设计公司、系统厂商和产业客户，从一个真实研发瓶颈开始试点。"
+
+[[contact.options]]
+title = "学术合作"
+text = "面向高校、实验室和研究团队，共建协同优化评测、数据集、开源工具与人才培养合作。"
+
+[[contact.options]]
+title = "人才招聘"
+text = "欢迎对 AI 编译器、芯片架构、EDA 自动化、系统软件和企业级 AI 产品感兴趣的工程师与研究者联系。"
+
+[footer]
+tagline = "半导体AI原生设计、验证系统"
+trust = "私有化部署"
+copyright = "© 2026 ChipGPT Lab. All rights reserved."
+
+[[footer.columns]]
+title = "平台"
+
+[[footer.columns.links]]
+label = "跨层一致性分析"
+href = "#capabilities"
+
+[[footer.columns.links]]
+label = "协同优化"
+href = "#capabilities"
+
+[[footer.columns.links]]
+label = "验证闭环"
+href = "#capabilities"
+
+[[footer.columns]]
+title = "解决方案"
+
+[[footer.columns.links]]
+label = "RISC-V 定制芯片"
+href = "#use-cases"
+
+[[footer.columns.links]]
+label = "AI 加速器"
+href = "#use-cases"
+
+[[footer.columns.links]]
+label = "机器人与工业控制芯片"
+href = "#use-cases"
+
+[[footer.columns]]
+title = "公司"
+
+[[footer.columns.links]]
+label = "联合实验室"
+href = "#lab"
+
+[[footer.columns.links]]
+label = "合作试点"
+href = "#contact"
+
+[[footer.columns.links]]
+label = "联系团队"
+href = "mailto:changkaiyan@live.com"
