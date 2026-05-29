@@ -20,10 +20,14 @@ href = "#use-cases"
 label = "合作"
 href = "#contact"
 
+[[navigation]]
+label = "资料"
+href = "resources/"
+
 [hero]
 eyebrow = "AI 原生的半导体智能"
 heading = "ChipGPT Lab"
-subheading = "面向专用处理器、RISC-V 定制芯片、AI 加速器、机器人控制芯片和工业控制芯片，建设AI 原生的半导体智能平台。"
+subheading = "面向专用处理器建设半导体AI原生设计系统，解决工程师的跨层理解问题、系统优化问题。"
 image = "/hero-chipgpt-lab.png"
 imageAlt = "ChipGPT Lab advanced semiconductor research visual"
 

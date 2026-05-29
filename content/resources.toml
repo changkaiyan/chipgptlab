@@ -1,0 +1,22 @@
+[page]
+eyebrow = "Resources"
+title = "资料"
+description = "整理 ChipGPT Lab 相关已有工作。每条只保留问题、发布时间和地点、论文，方便快速浏览和后续补充。"
+
+[[works]]
+problem = "跨层一致性问题：寄存器定义、驱动接口、RTL 行为和仿真模型在迭代中容易不一致。"
+published = "待补充发布时间和地点"
+paper = "待补充论文"
+href = ""
+
+[[works]]
+problem = "协同优化问题：架构、RTL、编译映射、驱动和仿真模型之间缺少统一优化闭环。"
+published = "待补充发布时间和地点"
+paper = "待补充论文"
+href = ""
+
+[[works]]
+problem = "验证闭环问题：测试覆盖不足、错误定位慢、性能回归原因难以解释。"
+published = "待补充发布时间和地点"
+paper = "待补充论文"
+href = ""
